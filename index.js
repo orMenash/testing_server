@@ -7,7 +7,7 @@ const { routesInit } = require("./routes/config_routs");
 
 const app = express();
 const server = http.createServer(app);
-const port = process.env.PORT || 3001;
+const port = 34444;
 
 server.listen(port, function() {
   console.log(`Server listening on port ${port}`);
